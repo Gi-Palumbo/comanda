@@ -14,25 +14,24 @@ const produto = {
 }
 
 export default function Produtos() {
-    const[produtos,setProdutos]=useState([])
+    const [produtos, setProdutos] = useState([])
 
     useEffect( () => {
         axios.get("http://localhost:3000/produtos")
-            .then(resp =>setProdutos(resp.data))
-
-    }, [])
-
-
+          .then(resp => setProdutos(resp.data))
+    }, [] )
 
 
     return (
         <View style={styles.containerBetween}>
             <View style={styles.header}>
-                <MaterialIcons name="arrow-back" size={24} color="black" />
+                <TouchableOpacity>
+                    <MaterialIcons name="arrow-back" size={24} color="black" />
+                </TouchableOpacity>
 
                 <View style={styles.box}>
                     <Text>comanda</Text>
-                    <Text style={styles.title}>2457</Text>
+                    <Text style={styles.title}>1803</Text>
                 </View>
             </View>
 
@@ -48,7 +47,7 @@ export default function Produtos() {
                 </View>
                 <View style={styles.pedidoDataTotal}>
                     <Text>Saldo final</Text>
-                    <Text>R$ 149,00</Text>
+                    <Text>R$ 270,00</Text>
                 </View>
             </View>
 
@@ -57,13 +56,13 @@ export default function Produtos() {
             <Text style={styles.subtitle}>Produtos</Text>
 
             <ScrollView style={styles.scroll}>
-                {produtos.map(p=> <CardProduto key={p.id}produto ={p}/>)}
-                
+                {produtos.map(p => <CardProduto key={p.id} produto={p}/> )}
+               
             </ScrollView>
 
 
             <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>finalizar</Text>
+                <Text style={styles.buttonText}>=Finalizar</Text>
             </TouchableOpacity>
         </View>
 

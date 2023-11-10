@@ -3,32 +3,46 @@
         {
           "id": "1",
           "nome": "Classic Burger",
-          "imagepath": "http://example.com/classic.jpg",
+          "imagepath": "https://img.freepik.com/fotos-gratis/hamburguer-de-queijo-perfeito-com-legumes-na-mesa-de-madeira-e-fundo-preto-ai-generative_123827-23432.jpg?w=740&t=st=1699587893~exp=1699588493~hmac=78fe40b3cf8f2917cb2e4fe78a3f997d1283e651f93450491a83816af3bfc8c3",
           "preco": 9.99
         },
         {
           "id": "2",
           "nome": "Cheeseburger",
-          "imagepath": "http://example.com/cheeseburger.jpg",
+          "imagepath": "https://img.freepik.com/fotos-gratis/ainda-vida-de-delicioso-hamburguer-americano_23-2149637312.jpg?w=360&t=st=1699587924~exp=1699588524~hmac=f04935b35547a684b36cc89cb0298d11867c1f65c68d670605af85d6a42f40ca",
           "preco": 8.99
         },
         {
           "id": "3",
           "nome": "Bacon Burger",
-          "imagepath": "http://example.com/bacon.jpg",
+          "imagepath": "https://img.freepik.com/fotos-gratis/tiro-vertical-da-mao-de-um-homem-agarrando-o-pao-superior-do-hamburguer_181624-56720.jpg?w=360&t=st=1699587991~exp=1699588591~hmac=2537318de7f4fd2c08666f44b60e7b324081ff596e3a1934025cdd4917791523",
           "preco": 10.99
         },
         {
           "id": "4",
           "nome": "Mushroom Burger",
-          "imagepath": "http://example.com/mushroom.jpg",
+          "imagepath": "https://img.freepik.com/fotos-gratis/hamburguer-frontal-com-bacon-na-ardosia_23-2148784470.jpg?w=360&t=st=1699588027~exp=1699588627~hmac=86a1ac671f169b906078fb8b52a90aa31562d9469d696747f09495f37d76e3f4",
           "preco": 9.99
         },
         {
           "id": "5",
           "nome": "BBQ Burger",
-          "imagepath": "http://example.com/bbq.jpg",
+          "imagepath": "https://img.freepik.com/fotos-gratis/hamburguer-de-carne-grelhada-em-chama-de-mesa-de-madeira-grelhada-gerada-por-ia_188544-25122.jpg?w=826&t=st=1699588125~exp=1699588725~hmac=0ec10acaed59395ec37ce8915805b264f2e0fd24ade1a8e10ecd871e4ed096c0",
           "preco": 11.99
+        }
+      ],
+      "usuarios": [
+        { 
+          "id": "1",
+          "nome": "Giovanna Palumbo",
+          "email": "gigi@email.com",
+          "senha": "1234"
+        },
+        { 
+          "id": "2",
+          "nome": "Ale Silva",
+          "email": "Ale.sil@email.com",
+          "senha": "4321"
         }
       ]
 }
